@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>dotnet6_serilog_example</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="serilog.aspnetcore" Version="4.1.0" />
+    <PackageReference Include="serilog.expressions" Version="3.2.1" />
+    <PackageReference Include="serilog.sinks.seq" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
