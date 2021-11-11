@@ -170,6 +170,12 @@ Serilog's request logging streamlines this, into a single message per request, i
     app.UseSerilogRequestLogging();
 ```
 
+## Viewing structured logs
+
+If you're running a local Seq instance, you can now view the structured properties attached to your application logs in the Seq UI:
+
+![Application logs in Seq](https://github.com/datalust/dotnet6-serilog-example/blob/dev/asset/structured-data-in-seq.png)
+
 ## Getting help and advice
 
 Ask your question on [Stack Overflow](https://stackoverflow.com) and tag it with `serilog`.
