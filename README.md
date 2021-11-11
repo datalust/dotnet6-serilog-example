@@ -4,7 +4,7 @@ This is a sample project showing Serilog configured in the default .NET 6 web ap
 
 To show how everything fits together, the sample includes:
 
- * Integration into _Microsoft.Extensions.Logging_ and `WebApplicationBuilder`
+ * Support for .NET 6's `ILogger<T>` and `WebApplicationBuilder`
  * Namespace-specific logging levels to suppress noise from the framework
  * JSON configuration
  * Clean, themed console output
@@ -169,6 +169,11 @@ Serilog's request logging streamlines this, into a single message per request, i
 ```csharp
     app.UseSerilogRequestLogging();
 ```
+
+## Writing log events
+
+This setup enables both Serilog's static `Log` class, as you see used in the example above, and _Microsoft.Extensions.Logging_'s
+`ILogger<T>`, which can be consumed through dependency injection into controllers and other components.
 
 ## Viewing structured logs
 
