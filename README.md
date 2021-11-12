@@ -36,8 +36,8 @@ dotnet run
 
 Some URLs will be printed to the terminal: open them in a browser to see request logging in action.
 
- * `/` -- should show "Hello, world!" and respond successfully
- * `/oops` -- throws an exception, which will be logged
+ * `/` &mdash; should show "Hello, world!" and respond successfully
+ * `/oops` &mdash; throws an exception, which will be logged
 
 To see structured log output, start a temporary local Seq instance with:
 
