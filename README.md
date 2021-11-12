@@ -138,7 +138,9 @@ The complete JSON configuration from the example is:
     "Filter": [
       {
         "Name": "ByExcluding",
-        "Args": { "expression": "@mt = 'An unhandled exception has occurred while executing the request.'" }
+        "Args": {
+          "expression": "@mt = 'An unhandled exception has occurred while executing the request.'"
+        }
       }
     ],
     "WriteTo": [
