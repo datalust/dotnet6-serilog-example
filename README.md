@@ -65,7 +65,7 @@ dotnet new web
 ```shell
 dotnet add package serilog.aspnetcore
 dotnet add package serilog.sinks.seq
-dotnet add package serilog.filters.expressions
+dotnet add package serilog.expressions
 ```
 
 ### 3. Initialize Serilog at the start of `Program.cs`
